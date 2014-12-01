@@ -13,7 +13,6 @@
 		599CE48D1A2A075600FA47C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599CE48B1A2A075600FA47C9 /* Main.storyboard */; };
 		599CE4AB1A2A0ADE00FA47C9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 599CE4A81A2A09E600FA47C9 /* Alamofire.framework */; };
 		599CE4B31A2A0B1300FA47C9 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 599CE4B21A2A0B1300FA47C9 /* NotificationCenter.framework */; };
-		599CE4BA1A2A0B1300FA47C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 599CE4B81A2A0B1300FA47C9 /* InfoPlist.strings */; };
 		599CE4BC1A2A0B1300FA47C9 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599CE4BB1A2A0B1300FA47C9 /* TodayViewController.swift */; };
 		599CE4BE1A2A0B1300FA47C9 /* ListRowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599CE4BD1A2A0B1300FA47C9 /* ListRowViewController.swift */; };
 		599CE4C01A2A0B1300FA47C9 /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 599CE4BF1A2A0B1300FA47C9 /* TodayViewController.xib */; };
@@ -24,6 +23,7 @@
 		599CE4D41A2A78E700FA47C9 /* DishModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599CE4D21A2A78E600FA47C9 /* DishModel.swift */; };
 		599CE4D51A2A78E700FA47C9 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599CE4D31A2A78E600FA47C9 /* MenuModel.swift */; };
 		599CE4D71A2A795600FA47C9 /* HSMWXmlParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599CE4D61A2A795600FA47C9 /* HSMWXmlParser.swift */; };
+		59F0B56B1A2C945000B7E371 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59F0B56A1A2C945000B7E371 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,7 +76,6 @@
 		599CE4B21A2A0B1300FA47C9 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		599CE4B61A2A0B1300FA47C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		599CE4B71A2A0B1300FA47C9 /* mensa_widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = mensa_widget.entitlements; sourceTree = "<group>"; };
-		599CE4B91A2A0B1300FA47C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		599CE4BB1A2A0B1300FA47C9 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		599CE4BD1A2A0B1300FA47C9 /* ListRowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowViewController.swift; sourceTree = "<group>"; };
 		599CE4BF1A2A0B1300FA47C9 /* TodayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodayViewController.xib; sourceTree = "<group>"; };
@@ -85,6 +84,7 @@
 		599CE4D21A2A78E600FA47C9 /* DishModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DishModel.swift; sourceTree = "<group>"; };
 		599CE4D31A2A78E600FA47C9 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
 		599CE4D61A2A795600FA47C9 /* HSMWXmlParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSMWXmlParser.swift; sourceTree = "<group>"; };
+		59F0B56A1A2C945000B7E371 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,8 +183,8 @@
 			isa = PBXGroup;
 			children = (
 				599CE4B61A2A0B1300FA47C9 /* Info.plist */,
+				59F0B56A1A2C945000B7E371 /* InfoPlist.strings */,
 				599CE4B71A2A0B1300FA47C9 /* mensa_widget.entitlements */,
-				599CE4B81A2A0B1300FA47C9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -320,8 +320,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				599CE4C21A2A0B1300FA47C9 /* ListRowViewController.xib in Resources */,
+				59F0B56B1A2C945000B7E371 /* InfoPlist.strings in Resources */,
 				599CE4C01A2A0B1300FA47C9 /* TodayViewController.xib in Resources */,
-				599CE4BA1A2A0B1300FA47C9 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,14 +367,6 @@
 				599CE48C1A2A075600FA47C9 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		599CE4B81A2A0B1300FA47C9 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				599CE4B91A2A0B1300FA47C9 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

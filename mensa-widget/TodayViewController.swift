@@ -25,6 +25,7 @@ class TodayViewController: NSViewController, NCWidgetProviding, NCWidgetListView
         self.serviceClient.delegate = self
         // Set up the widget list view controller.
         // The contents property should contain an object for each row in the list.
+        
         serviceClient.executeRequest()
 
     }
