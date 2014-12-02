@@ -13,7 +13,6 @@ class ListRowViewController: NSViewController {
     @IBOutlet weak var descriptionLabel: NSTextField!
     @IBOutlet weak var typeLabel: NSTextField!
     @IBOutlet weak var categoryLabel: NSTextField!
-    var menuObject = MenuModel(Name: "")
     
     
     override var nibName: String? {
@@ -24,15 +23,11 @@ class ListRowViewController: NSViewController {
     override func loadView() {
         super.loadView()
         if let menuObj = self.representedObject as? MenuModel {
-            self.menuObject = menuObj
             typeLabel.stringValue = menuObj.type
             categoryLabel.stringValue = "PK " + String(menuObj.category)
             descriptionLabel.stringValue = menuObj.name
             
             preferredContentSize = NSSize(width: self.preferredContentSize.width, height: 100)
         }
-
-        
-        // Insert code here to customize the view
     }
 }

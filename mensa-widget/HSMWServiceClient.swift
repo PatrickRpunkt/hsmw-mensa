@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import NotificationCenter
 import Alamofire
 
 protocol HSMWServiceDelegate{
@@ -22,17 +23,27 @@ class HSMWServiceClient: NSObject, NSXMLParserDelegate {
     var inDay = false
     var currentMenu : MenuModel?
     var currentElement : String = ""
+    var handler: ((NCUpdateResult) -> Void)?
     
     override init() {
         currentDay = DishModel()
         week = [DishModel]()
         currentMenu = MenuModel(Name: "")
+        
     }
     
     func executeRequest()
     {
         Alamofire.request(.GET, "https://app.hs-mittweida.de/speiseplan", parameters: nil)
             .response { (request, response, data, error) in
+                
+                if((error) != nil){
+                    if let completionHandler = self.handler {
+                        println(NSDate())
+                        completionHandler(.Failed)
+                        return
+                    }
+                }
                 
                 let parser = NSXMLParser(data: data as NSData)
                 parser.delegate = self
@@ -75,6 +86,10 @@ class HSMWServiceClient: NSObject, NSXMLParserDelegate {
     func parserDidEndDocument(parser: NSXMLParser!) {
         
         self.delegate?.fetchWeekDataCompleted(self.week)
+        if let completionHandler = handler {
+            println(NSDate())
+            completionHandler(.NewData)
+        }
     }
     
     func parser(parser: NSXMLParser!, foundCharacters string: String!) {
@@ -163,6 +178,13 @@ class HSMWServiceClient: NSObject, NSXMLParserDelegate {
     func isBoolString(boolString : String) -> Bool
     {
         return (boolString == "true" || boolString == "false")
+    }
+    
+    func parser(parser: NSXMLParser!, parseErrorOccurred parseError: NSError!) {
+        if let completionHandler = handler {
+            println(NSDate())
+            completionHandler(NCUpdateResult.Failed)
+        }
     }
 }
 

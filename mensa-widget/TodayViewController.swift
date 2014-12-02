@@ -13,7 +13,7 @@ class TodayViewController: NSViewController, NCWidgetProviding, NCWidgetListView
     
     @IBOutlet var listViewController: NCWidgetListViewController!
     var searchController: NCWidgetSearchViewController?
-    let serviceClient = HSMWServiceClient()
+    var serviceClient = HSMWServiceClient()
     // MARK: - NSViewController
 
     override var nibName: String? {
@@ -25,9 +25,6 @@ class TodayViewController: NSViewController, NCWidgetProviding, NCWidgetListView
         self.serviceClient.delegate = self
         // Set up the widget list view controller.
         // The contents property should contain an object for each row in the list.
-        
-        serviceClient.executeRequest()
-
     }
 
     override func dismissViewController(viewController: NSViewController) {
@@ -47,7 +44,8 @@ class TodayViewController: NSViewController, NCWidgetProviding, NCWidgetListView
         // refreshed. Pass NCUpdateResultNoData to indicate that nothing has changed
         // or NCUpdateResultNewData to indicate that there is new data since the
         // last invocation of this method.
-        completionHandler(.NoData)
+        self.serviceClient.handler = completionHandler
+        serviceClient.executeRequest()
     }
 
     func widgetMarginInsetsForProposedMarginInsets(var defaultMarginInset: NSEdgeInsets) -> NSEdgeInsets {
