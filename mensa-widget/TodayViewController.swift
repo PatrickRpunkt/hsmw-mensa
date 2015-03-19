@@ -12,7 +12,6 @@ import NotificationCenter
 class TodayViewController: NSViewController, NCWidgetProviding, NCWidgetListViewDelegate, HSMWServiceDelegate {
     
     @IBOutlet var listViewController: NCWidgetListViewController!
-    var searchController: NCWidgetSearchViewController?
     var serviceClient = HSMWServiceClient()
     // MARK: - NSViewController
 
@@ -23,6 +22,7 @@ class TodayViewController: NSViewController, NCWidgetProviding, NCWidgetListView
     override func viewDidLoad() {
         super.viewDidLoad()
         self.serviceClient.delegate = self
+        self.listViewController.minimumVisibleRowCount = 3
         // Set up the widget list view controller.
         // The contents property should contain an object for each row in the list.
     }
@@ -30,10 +30,6 @@ class TodayViewController: NSViewController, NCWidgetProviding, NCWidgetListView
     override func dismissViewController(viewController: NSViewController) {
         super.dismissViewController(viewController)
 
-        // The search controller has been dismissed and is no longer needed.
-        if viewController == self.searchController {
-            self.searchController = nil
-        }
     }
 
     // MARK: - NCWidgetProviding

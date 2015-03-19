@@ -1,0 +1,6 @@
+framework module Pods_mensa_widget {
+  umbrella header "Pods-mensa-widget-umbrella.h"
+
+  export *
+  module * { export * }
+}

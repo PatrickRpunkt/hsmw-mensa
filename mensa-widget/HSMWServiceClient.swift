@@ -34,7 +34,7 @@ class HSMWServiceClient: NSObject, NSXMLParserDelegate {
     
     func executeRequest()
     {
-        Alamofire.request(.GET, "https://app.hs-mittweida.de/speiseplan", parameters: nil)
+        Alamofire.request(.GET, "https://app.hs-mittweida.de/speiseplan/currentWeek", parameters: nil)
             .response { (request, response, data, error) in
                 
                 if((error) != nil){
@@ -87,7 +87,7 @@ class HSMWServiceClient: NSObject, NSXMLParserDelegate {
         
         self.delegate?.fetchWeekDataCompleted(self.week)
         if let completionHandler = handler {
-            println(NSDate())
+            println("New Data")
             completionHandler(.NewData)
         }
     }

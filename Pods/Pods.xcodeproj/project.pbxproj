@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43A3A048004CD045DD7620A0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F81E0A3A818464ADA90F527 /* Cocoa.framework */; };
+		4F36F5E8E84199DBE550F420 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB13E1157F252681E24DBE2 /* Alamofire.swift */; };
+		5BF3135F89E33A2158BAF31E /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB13E1157F252681E24DBE2 /* Alamofire.swift */; };
+		676575ED8CFC9088FE5192E7 /* Pods-hsmw-mensa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D3AA91C7246D5C9B6166A1 /* Pods-hsmw-mensa-dummy.m */; };
+		8C44E84113BA95BCA73B1332 /* Pods-mensa-widget-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A409862668DB8C118B89D3 /* Pods-mensa-widget-dummy.m */; };
+		926BE7A4D9134534269BC302 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F81E0A3A818464ADA90F527 /* Cocoa.framework */; };
+		9A1B3C1A4ED47C7E123C6024 /* Pods-mensa-widget-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD2496509152996BAD09501 /* Pods-mensa-widget-Alamofire-dummy.m */; };
+		9DF74AC2F066AF91A96ED1F1 /* Pods-mensa-widget-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A640555B435974B81BF52CC /* Pods-mensa-widget-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7B5D2C5DC908B9D37E9234F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F81E0A3A818464ADA90F527 /* Cocoa.framework */; };
+		AE7E7E9A4C4CCFEC566E868D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F81E0A3A818464ADA90F527 /* Cocoa.framework */; };
+		B9BCF4132C72FE12A7D53A7C /* Pods-hsmw-mensa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC6D014C951DC7DEF92B7C59 /* Pods-hsmw-mensa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAE4B14CFC0B278052955EB1 /* Pods-mensa-widget-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C03D2A86CA684CA908C958F2 /* Pods-mensa-widget-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C321FAC48685028E54352455 /* Pods-hsmw-mensa-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F1D12E5A0FAA5512A91F63 /* Pods-hsmw-mensa-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9D9E4F120CC87309B4C61E9 /* Pods-hsmw-mensa-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B49514BD6E53C47C48724E /* Pods-hsmw-mensa-Alamofire-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		620318CBFFC425A442D070E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FE0E88FDF0A1C64A4239185 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75C5456726634F6DF6A1557E;
+			remoteInfo = "Pods-hsmw-mensa-Alamofire";
+		};
+		A47EB4B7935BAE43B7499C0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FE0E88FDF0A1C64A4239185 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99054FA2C752D82AA80B7014;
+			remoteInfo = "Pods-mensa-widget-Alamofire";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033282E3D146CE93C9A450FC /* Pods_mensa_widget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mensa_widget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15B49514BD6E53C47C48724E /* Pods-hsmw-mensa-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hsmw-mensa-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		1C93ECB210F5F27E17295011 /* Pods-hsmw-mensa-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hsmw-mensa-acknowledgements.plist"; sourceTree = "<group>"; };
+		201A0CD6E943AD47E5F75ED1 /* Pods-hsmw-mensa-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hsmw-mensa-environment.h"; sourceTree = "<group>"; };
+		20BD90D73318331BAAC36076 /* Pods-hsmw-mensa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hsmw-mensa.release.xcconfig"; sourceTree = "<group>"; };
+		21A89C0C814395AD07ED416E /* Pods_hsmw_mensa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hsmw_mensa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		236F76CAB69778088C57524A /* Pods-mensa-widget.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-mensa-widget.modulemap"; sourceTree = "<group>"; };
+		249A5490ACDEE7D6BFE30072 /* Pods-mensa-widget-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mensa-widget-Alamofire.xcconfig"; path = "../Pods-mensa-widget-Alamofire/Pods-mensa-widget-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		27E17AED1CFFF827CAA71B9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31CEDD1B7B0CCA2C0F24891B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3284F7BEF916FF62BFE3E8C9 /* Pods-mensa-widget-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mensa-widget-acknowledgements.plist"; sourceTree = "<group>"; };
+		32B909CC67696E0E108C1A25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-mensa-widget-Alamofire/Info.plist"; sourceTree = "<group>"; };
+		35E5FEAD94637A1DB912B347 /* Pods-mensa-widget-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-mensa-widget-Alamofire.modulemap"; path = "../Pods-mensa-widget-Alamofire/Pods-mensa-widget-Alamofire.modulemap"; sourceTree = "<group>"; };
+		4F81E0A3A818464ADA90F527 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		5B8FBF41BA5D2B6597FDB3FE /* Pods-mensa-widget-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mensa-widget-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60A409862668DB8C118B89D3 /* Pods-mensa-widget-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mensa-widget-dummy.m"; sourceTree = "<group>"; };
+		6756A6FA112B8448DBF71A64 /* Pods-mensa-widget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mensa-widget.debug.xcconfig"; sourceTree = "<group>"; };
+		6CD2496509152996BAD09501 /* Pods-mensa-widget-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-mensa-widget-Alamofire-dummy.m"; path = "../Pods-mensa-widget-Alamofire/Pods-mensa-widget-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		7070D78F87618094A43FFD12 /* Pods-mensa-widget-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mensa-widget-resources.sh"; sourceTree = "<group>"; };
+		72092164534B5DE573A10B31 /* Pods-hsmw-mensa-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hsmw-mensa-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		7A7D1616C51DE5890CD267F0 /* Pods-mensa-widget-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mensa-widget-Alamofire-Private.xcconfig"; path = "../Pods-mensa-widget-Alamofire/Pods-mensa-widget-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		80ACD09E6443DC5E0C071050 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF336A8CB843D88E4B69A8D /* Pods-mensa-widget-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-mensa-widget-Alamofire-prefix.pch"; path = "../Pods-mensa-widget-Alamofire/Pods-mensa-widget-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		92D3AA91C7246D5C9B6166A1 /* Pods-hsmw-mensa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hsmw-mensa-dummy.m"; sourceTree = "<group>"; };
+		9A640555B435974B81BF52CC /* Pods-mensa-widget-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mensa-widget-umbrella.h"; sourceTree = "<group>"; };
+		A0FCB142A6388681079B53B5 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A39BA2DEF902A4E07683310B /* Pods-hsmw-mensa-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hsmw-mensa-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		A861F959FF76ADA2EF829B22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACEECD192BAF1ABD41824A11 /* Pods-mensa-widget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mensa-widget.release.xcconfig"; sourceTree = "<group>"; };
+		ADB13E1157F252681E24DBE2 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		B334DF75873CFD80F54E94E7 /* Pods-mensa-widget-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mensa-widget-frameworks.sh"; sourceTree = "<group>"; };
+		B414F312F278A80DD97AD811 /* Pods-hsmw-mensa-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-hsmw-mensa-Alamofire.modulemap"; sourceTree = "<group>"; };
+		BD491AC04B3D56318EBBE9AF /* Pods-hsmw-mensa-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hsmw-mensa-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C03D2A86CA684CA908C958F2 /* Pods-mensa-widget-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-mensa-widget-Alamofire-umbrella.h"; path = "../Pods-mensa-widget-Alamofire/Pods-mensa-widget-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		C5F1D12E5A0FAA5512A91F63 /* Pods-hsmw-mensa-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hsmw-mensa-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		D2AF23AB996D0DFCA4201E57 /* Pods-hsmw-mensa-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-hsmw-mensa-frameworks.sh"; sourceTree = "<group>"; };
+		DC649F5AB4D7A0B79ACE7E2A /* Pods-hsmw-mensa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-hsmw-mensa.modulemap"; sourceTree = "<group>"; };
+		DC6D014C951DC7DEF92B7C59 /* Pods-hsmw-mensa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hsmw-mensa-umbrella.h"; sourceTree = "<group>"; };
+		DF65D68724973469630CCB56 /* Pods-mensa-widget-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mensa-widget-environment.h"; sourceTree = "<group>"; };
+		E0A3DE674B587AB16CBC80C1 /* Pods-hsmw-mensa-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-hsmw-mensa-resources.sh"; sourceTree = "<group>"; };
+		EC81D2D13B2AF6B3700FD564 /* Pods-hsmw-mensa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hsmw-mensa.debug.xcconfig"; sourceTree = "<group>"; };
+		F231FDB6E6CE4C626D74029B /* Pods-hsmw-mensa-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hsmw-mensa-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		F55317AD448D49EFBE0D3B37 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A44C8D8011A391E95CEA41A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B5D2C5DC908B9D37E9234F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560D4199272BDAC3295CA741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7E7E9A4C4CCFEC566E868D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83CFCA369B21D853142E6779 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926BE7A4D9134534269BC302 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15DD3026DE512FEA38C82F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A3A048004CD045DD7620A0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DC971F94B476DC1F3E028BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27E17AED1CFFF827CAA71B9A /* Info.plist */,
+				32B909CC67696E0E108C1A25 /* Info.plist */,
+				B414F312F278A80DD97AD811 /* Pods-hsmw-mensa-Alamofire.modulemap */,
+				A39BA2DEF902A4E07683310B /* Pods-hsmw-mensa-Alamofire.xcconfig */,
+				72092164534B5DE573A10B31 /* Pods-hsmw-mensa-Alamofire-Private.xcconfig */,
+				15B49514BD6E53C47C48724E /* Pods-hsmw-mensa-Alamofire-dummy.m */,
+				F231FDB6E6CE4C626D74029B /* Pods-hsmw-mensa-Alamofire-prefix.pch */,
+				C5F1D12E5A0FAA5512A91F63 /* Pods-hsmw-mensa-Alamofire-umbrella.h */,
+				35E5FEAD94637A1DB912B347 /* Pods-mensa-widget-Alamofire.modulemap */,
+				249A5490ACDEE7D6BFE30072 /* Pods-mensa-widget-Alamofire.xcconfig */,
+				7A7D1616C51DE5890CD267F0 /* Pods-mensa-widget-Alamofire-Private.xcconfig */,
+				6CD2496509152996BAD09501 /* Pods-mensa-widget-Alamofire-dummy.m */,
+				8DF336A8CB843D88E4B69A8D /* Pods-mensa-widget-Alamofire-prefix.pch */,
+				C03D2A86CA684CA908C958F2 /* Pods-mensa-widget-Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-hsmw-mensa-Alamofire";
+			sourceTree = "<group>";
+		};
+		63E24889421482C9C16101DC /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				ADB13E1157F252681E24DBE2 /* Alamofire.swift */,
+				1DC971F94B476DC1F3E028BB /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		7100B0DC3E7557149B0B2A9B /* Pods-mensa-widget */ = {
+			isa = PBXGroup;
+			children = (
+				A861F959FF76ADA2EF829B22 /* Info.plist */,
+				236F76CAB69778088C57524A /* Pods-mensa-widget.modulemap */,
+				5B8FBF41BA5D2B6597FDB3FE /* Pods-mensa-widget-acknowledgements.markdown */,
+				3284F7BEF916FF62BFE3E8C9 /* Pods-mensa-widget-acknowledgements.plist */,
+				60A409862668DB8C118B89D3 /* Pods-mensa-widget-dummy.m */,
+				DF65D68724973469630CCB56 /* Pods-mensa-widget-environment.h */,
+				B334DF75873CFD80F54E94E7 /* Pods-mensa-widget-frameworks.sh */,
+				7070D78F87618094A43FFD12 /* Pods-mensa-widget-resources.sh */,
+				9A640555B435974B81BF52CC /* Pods-mensa-widget-umbrella.h */,
+				6756A6FA112B8448DBF71A64 /* Pods-mensa-widget.debug.xcconfig */,
+				ACEECD192BAF1ABD41824A11 /* Pods-mensa-widget.release.xcconfig */,
+			);
+			name = "Pods-mensa-widget";
+			path = "Target Support Files/Pods-mensa-widget";
+			sourceTree = "<group>";
+		};
+		7BD6DFB1F1714BF33BC220F9 /* Pods-hsmw-mensa */ = {
+			isa = PBXGroup;
+			children = (
+				31CEDD1B7B0CCA2C0F24891B /* Info.plist */,
+				DC649F5AB4D7A0B79ACE7E2A /* Pods-hsmw-mensa.modulemap */,
+				BD491AC04B3D56318EBBE9AF /* Pods-hsmw-mensa-acknowledgements.markdown */,
+				1C93ECB210F5F27E17295011 /* Pods-hsmw-mensa-acknowledgements.plist */,
+				92D3AA91C7246D5C9B6166A1 /* Pods-hsmw-mensa-dummy.m */,
+				201A0CD6E943AD47E5F75ED1 /* Pods-hsmw-mensa-environment.h */,
+				D2AF23AB996D0DFCA4201E57 /* Pods-hsmw-mensa-frameworks.sh */,
+				E0A3DE674B587AB16CBC80C1 /* Pods-hsmw-mensa-resources.sh */,
+				DC6D014C951DC7DEF92B7C59 /* Pods-hsmw-mensa-umbrella.h */,
+				EC81D2D13B2AF6B3700FD564 /* Pods-hsmw-mensa.debug.xcconfig */,
+				20BD90D73318331BAAC36076 /* Pods-hsmw-mensa.release.xcconfig */,
+			);
+			name = "Pods-hsmw-mensa";
+			path = "Target Support Files/Pods-hsmw-mensa";
+			sourceTree = "<group>";
+		};
+		847A1E30036E38ABBEF90F35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED9BA4582D4BFDF4AD821427 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A767163AAD567B81E21313DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63E24889421482C9C16101DC /* Alamofire */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD3236CC51495E894F21AD7F = {
+			isa = PBXGroup;
+			children = (
+				A0FCB142A6388681079B53B5 /* Podfile */,
+				847A1E30036E38ABBEF90F35 /* Frameworks */,
+				A767163AAD567B81E21313DC /* Pods */,
+				D025004DDBB277290C09670B /* Products */,
+				EDF72187736414100437B035 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D025004DDBB277290C09670B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80ACD09E6443DC5E0C071050 /* Alamofire.framework */,
+				F55317AD448D49EFBE0D3B37 /* Alamofire.framework */,
+				21A89C0C814395AD07ED416E /* Pods_hsmw_mensa.framework */,
+				033282E3D146CE93C9A450FC /* Pods_mensa_widget.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED9BA4582D4BFDF4AD821427 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				4F81E0A3A818464ADA90F527 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		EDF72187736414100437B035 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BD6DFB1F1714BF33BC220F9 /* Pods-hsmw-mensa */,
+				7100B0DC3E7557149B0B2A9B /* Pods-mensa-widget */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		070EBF36008108C987C6BE58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE4B14CFC0B278052955EB1 /* Pods-mensa-widget-Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB3D912F445596E6759EAA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BCF4132C72FE12A7D53A7C /* Pods-hsmw-mensa-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D9F40811249A7AAD336BFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C321FAC48685028E54352455 /* Pods-hsmw-mensa-Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A69B048D9769B4B13811B14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF74AC2F066AF91A96ED1F1 /* Pods-mensa-widget-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		630C1CBCE8AF0DDAF9B29AC4 /* Pods-hsmw-mensa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C7515F6A2868809EA63A624 /* Build configuration list for PBXNativeTarget "Pods-hsmw-mensa" */;
+			buildPhases = (
+				6F35F5326A2924E647DCB290 /* Sources */,
+				560D4199272BDAC3295CA741 /* Frameworks */,
+				1AB3D912F445596E6759EAA7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB9DC326B03D7BB4B1C14610 /* PBXTargetDependency */,
+			);
+			name = "Pods-hsmw-mensa";
+			productName = "Pods-hsmw-mensa";
+			productReference = 21A89C0C814395AD07ED416E /* Pods_hsmw_mensa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		75C5456726634F6DF6A1557E /* Pods-hsmw-mensa-Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E207E77AD5E92200070171CB /* Build configuration list for PBXNativeTarget "Pods-hsmw-mensa-Alamofire" */;
+			buildPhases = (
+				E6E45E218CD60DD8FC202F2C /* Sources */,
+				3A44C8D8011A391E95CEA41A /* Frameworks */,
+				30D9F40811249A7AAD336BFB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-hsmw-mensa-Alamofire";
+			productName = "Pods-hsmw-mensa-Alamofire";
+			productReference = 80ACD09E6443DC5E0C071050 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99054FA2C752D82AA80B7014 /* Pods-mensa-widget-Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2E91A7F405D1298A2E8423 /* Build configuration list for PBXNativeTarget "Pods-mensa-widget-Alamofire" */;
+			buildPhases = (
+				0BA1145BEB71549FF7AB3B2A /* Sources */,
+				83CFCA369B21D853142E6779 /* Frameworks */,
+				070EBF36008108C987C6BE58 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-mensa-widget-Alamofire";
+			productName = "Pods-mensa-widget-Alamofire";
+			productReference = F55317AD448D49EFBE0D3B37 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C01F0D15B4632B869961E1C9 /* Pods-mensa-widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403380BCB77812C7A7541B03 /* Build configuration list for PBXNativeTarget "Pods-mensa-widget" */;
+			buildPhases = (
+				47E3646CE8EA2FE96B82BCB4 /* Sources */,
+				A15DD3026DE512FEA38C82F4 /* Frameworks */,
+				6A69B048D9769B4B13811B14 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7C107C5DCE524DB43F9D5BE /* PBXTargetDependency */,
+			);
+			name = "Pods-mensa-widget";
+			productName = "Pods-mensa-widget";
+			productReference = 033282E3D146CE93C9A450FC /* Pods_mensa_widget.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FE0E88FDF0A1C64A4239185 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 41F0184CE076D9E072635935 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD3236CC51495E894F21AD7F;
+			productRefGroup = D025004DDBB277290C09670B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				630C1CBCE8AF0DDAF9B29AC4 /* Pods-hsmw-mensa */,
+				75C5456726634F6DF6A1557E /* Pods-hsmw-mensa-Alamofire */,
+				C01F0D15B4632B869961E1C9 /* Pods-mensa-widget */,
+				99054FA2C752D82AA80B7014 /* Pods-mensa-widget-Alamofire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BA1145BEB71549FF7AB3B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F36F5E8E84199DBE550F420 /* Alamofire.swift in Sources */,
+				9A1B3C1A4ED47C7E123C6024 /* Pods-mensa-widget-Alamofire-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E3646CE8EA2FE96B82BCB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C44E84113BA95BCA73B1332 /* Pods-mensa-widget-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F35F5326A2924E647DCB290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676575ED8CFC9088FE5192E7 /* Pods-hsmw-mensa-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E45E218CD60DD8FC202F2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF3135F89E33A2158BAF31E /* Alamofire.swift in Sources */,
+				C9D9E4F120CC87309B4C61E9 /* Pods-hsmw-mensa-Alamofire-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB9DC326B03D7BB4B1C14610 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-hsmw-mensa-Alamofire";
+			target = 75C5456726634F6DF6A1557E /* Pods-hsmw-mensa-Alamofire */;
+			targetProxy = 620318CBFFC425A442D070E3 /* PBXContainerItemProxy */;
+		};
+		C7C107C5DCE524DB43F9D5BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-mensa-widget-Alamofire";
+			target = 99054FA2C752D82AA80B7014 /* Pods-mensa-widget-Alamofire */;
+			targetProxy = A47EB4B7935BAE43B7499C0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		079F6A638C414A54D7881379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7D1616C51DE5890CD267F0 /* Pods-mensa-widget-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-mensa-widget-Alamofire/Pods-mensa-widget-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-mensa-widget-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-mensa-widget-Alamofire/Pods-mensa-widget-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2EAB14F878B5C18AE26A76AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72092164534B5DE573A10B31 /* Pods-hsmw-mensa-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-hsmw-mensa-Alamofire/Pods-hsmw-mensa-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-hsmw-mensa-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-hsmw-mensa-Alamofire/Pods-hsmw-mensa-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		483BFDE449D4855AED3AE34B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6756A6FA112B8448DBF71A64 /* Pods-mensa-widget.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-mensa-widget/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-mensa-widget/Pods-mensa-widget.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_mensa_widget;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7DF5B8336E09EB0CD835AC08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7D1616C51DE5890CD267F0 /* Pods-mensa-widget-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-mensa-widget-Alamofire/Pods-mensa-widget-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-mensa-widget-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-mensa-widget-Alamofire/Pods-mensa-widget-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8551CF65227881262A9DD3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72092164534B5DE573A10B31 /* Pods-hsmw-mensa-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-hsmw-mensa-Alamofire/Pods-hsmw-mensa-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-hsmw-mensa-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-hsmw-mensa-Alamofire/Pods-hsmw-mensa-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9126ABCC884836EC43AFCD98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC81D2D13B2AF6B3700FD564 /* Pods-hsmw-mensa.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-hsmw-mensa/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-hsmw-mensa/Pods-hsmw-mensa.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_hsmw_mensa;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5A84802985180E56128F9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20BD90D73318331BAAC36076 /* Pods-hsmw-mensa.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-hsmw-mensa/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-hsmw-mensa/Pods-hsmw-mensa.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_hsmw_mensa;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D99F435C546FA3B83E8879DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E27355B0D819DB6FED94ABE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACEECD192BAF1ABD41824A11 /* Pods-mensa-widget.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-mensa-widget/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-mensa-widget/Pods-mensa-widget.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_mensa_widget;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F057931183AAC905BA5338BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		403380BCB77812C7A7541B03 /* Build configuration list for PBXNativeTarget "Pods-mensa-widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				483BFDE449D4855AED3AE34B /* Debug */,
+				E27355B0D819DB6FED94ABE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F0184CE076D9E072635935 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F057931183AAC905BA5338BD /* Debug */,
+				D99F435C546FA3B83E8879DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C7515F6A2868809EA63A624 /* Build configuration list for PBXNativeTarget "Pods-hsmw-mensa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9126ABCC884836EC43AFCD98 /* Debug */,
+				D5A84802985180E56128F9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2E91A7F405D1298A2E8423 /* Build configuration list for PBXNativeTarget "Pods-mensa-widget-Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079F6A638C414A54D7881379 /* Debug */,
+				7DF5B8336E09EB0CD835AC08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E207E77AD5E92200070171CB /* Build configuration list for PBXNativeTarget "Pods-hsmw-mensa-Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EAB14F878B5C18AE26A76AC /* Debug */,
+				8551CF65227881262A9DD3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FE0E88FDF0A1C64A4239185 /* Project object */;
+}
